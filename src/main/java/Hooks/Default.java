@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Default {
 
-    public void nudesender() {
+    public void sendhook() {
         Date date = new Date();
         Scanner sc= new Scanner(System.in);
         System.out.println("Please enter the hook url");
